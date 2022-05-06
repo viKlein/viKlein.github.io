@@ -4,8 +4,72 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>vk memorandum</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="./style/index.css">
 </head>
 <body>
   <h1>hello memorandum</h1>
+  <main class="container x-center">
+    <section>
+      <h2>fundamentals</h2>
+      <ul class="tab list-none">
+        <li class="tab__item">
+          <div class="wrap">
+            <label for="ctn_html">
+              <span class="title">HTML</span>
+              <img class="icon" src="#" alt="icon-HTML" />
+            </label>
+          </div>
+        </li>
+        <li class="tab__item">
+          <div class="wrap">
+            <label for="ctn_css">
+              <span class="title">CSS</span>
+              <img class="icon" src="#" alt="icon-CSS" />
+            </label>
+          </div>
+        </li>
+        <li class="tab__item">
+          <div class="wrap">
+            <label for="ctn_js">
+              <span class="title">Javascript</span>
+              <img class="icon" src="#" alt="icon-Javascript" />
+            </label>
+          </div>
+        </li>
+
+        <li class="tab__content">
+          <input id="ctn_html" class="content__trigger" type="radio" name="content_tab" checked hidden>
+          <section class="tab__content__item">
+            <h3>HTML</h3>
+            <ol class="content__info">
+              <li>HTML - 1</li>
+              <li>bla bla...</li>
+            </ol>
+          </section>
+
+          <input id="ctn_css" class="content__trigger" type="radio" name="content_tab" hidden>
+          <section class="tab__content__item">
+            <h3>CSS</h3>
+            <ol class="content__info">
+              <li>CSS - 1</li>
+              <li>bla bla...</li>
+            </ol>
+          </section>
+
+          <input id="ctn_js" class="content__trigger" type="radio" name="content_tab" hidden>
+          <section class="tab__content__item">
+            <h3>Javascript</h3>
+            <ol class="content__info">
+              <li>JS - 1</li>
+              <li>bla bla...</li>
+            </ol>
+          </section>
+        </li>
+
+      </ul>
+    </section>
+  </main>
+
 </body>
 </html>
